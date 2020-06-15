@@ -1,0 +1,21 @@
+{
+    "name": "neo-p/process",
+    "description": "process",
+    "minimum-stability": "dev",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "6xiaowu9",
+            "email": "736518585@qq.com"
+        }
+    ],
+    "require": {
+        "neo-p/framework": "^0.0.1",
+        "neo-p/di": "^0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "NeoP\\Process": "src/"
+        }
+    }
+}
