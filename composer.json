@@ -1,8 +1,8 @@
 {
     "name": "neo-p/process",
     "description": "process",
-    "minimum-stability": "dev",
-    "version": "0.0.1",
+    "type": "library",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "6xiaowu9",
@@ -10,12 +10,13 @@
         }
     ],
     "require": {
+        "php": ">=7.0",
         "neo-p/framework": "^0.0.1",
         "neo-p/di": "^0.0.1"
     },
     "autoload": {
         "psr-4": {
-            "NeoP\\Process": "src/"
+            "NeoP\\Process\\": "src/"
         }
     }
 }
